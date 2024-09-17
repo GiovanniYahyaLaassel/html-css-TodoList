@@ -11,16 +11,25 @@ body{
 header{
     background-color: white;
     padding: 10px 30px;
+    margin-bottom: 40px;
+}
+nav{
+    padding: 15px;
 }
 
-.main-title *{
+.title-logo *{
     vertical-align: middle;
     display: inline-block;
 }
-
+/* main-content */
 .conteiner{
     max-width: 1200px;
     margin: 0 auto;
     background-color: white;
+}
+
+.input-bar *{
+    font-style: oblique;
+    border-radius: 5px;
 }
 
