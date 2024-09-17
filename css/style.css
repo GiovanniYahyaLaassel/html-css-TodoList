@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+    background-color: rgb(204, 201, 201);
+}
+
+header{
+    background-color: white;
+    padding: 10px 30px;
+}
+
+.main-title *{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
