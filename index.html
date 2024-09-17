@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TodoList</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="title-logo">
@@ -16,37 +19,36 @@
          <div class="conteiner">
              <nav>
                  <div class="input-bar">
-                     <input class="Task-blue-color" type="button" value="Add Task">
-                     <input class="Section" type="button" value="Add Section">
+                     <input class="bg-color" type="button" value="Add Task">
+                     <input  type="button" value="Add Section">
                  </div>
              </nav>
              <hr>
              <!-- start Of the list -->
-              <div class="first-contein">
+              
                   <ul class="list-task">
                      <li><h2>New Task</h2> </li>
-                     <li>Quarterly Newsleter <input type="button" value="Editorial"></li>
+                     <li>Quarterly Newsleter <input class=" bg-color" type="button" value="Editorial"></li>
                   </ul>
-              </div>
-              <div>
+              
+              
                   <ul class="list-today">
                      <li><h2>Today</h2></li>
-                     <li>Quarterly Newsleter <input type="button" value="Editorial"></li>
-                     <li>Quarterly Newsleter <input type="button" value="Q1 Goals"></li>
-                     <li>Quarterly Newsleter <input type="button" value="Recruting"></li>
-                     <li>Quarterly Newsleter <input type="button" value="Mobile"></li>
+                     <li>Recruiting blog post <input class="bg-color" type="button" value="Editorial"></li>
+                     <li>Mobile app launch<input id="bg-qgoals" type="button" value="Q1 Goals"></li>
+                     <li>Interview John H. <input id="bg-recruting" type="button" value="Recruting"></li>
+                     <li>Summit update to mobile storefronts <input id="bg-mobile" type="button" value="Mobile"></li>
                   </ul>
 
-              </div>
-              <div>
+              
                   <ul class="list-upcoming">
                      <li><h2>Upcoming</h2></li>
-                     <li>Quarterly Newsleter</li>
-                     <li>Quarterly Newsleter <input type="button" value="Website"></li>
-                     <li>Quarterly Newsleter <input type="button" value="Sales"></li>
-                     <li>Quarterly Newsleter <input type="button" value="Editorial"></li>
+                     <li>Schedule meeting with Alex</li>
+                     <li>Homepage refresh <input id="bg-website" type="button" value="Website"></li>
+                     <li>Onboard new Sales team members <input id="bg-sales" type="button" value="Sales"></li>
+                     <li>Review editorial calendar <input class="bg-color" type="button" value="Editorial"></li>
                   </ul>
-              </div>
+              
 
          </div>
 

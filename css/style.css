@@ -3,6 +3,9 @@
     margin: 0 auto;
     padding: 0 auto;
 }
+html{
+    font-family: "Poppins", sans-serif;
+}
 
 body{
     background-color: rgb(204, 201, 201);
@@ -23,16 +26,55 @@ nav{
 }
 /* main-content */
 .conteiner{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: white;
 }
 
 .input-bar *{
-    font-style: oblique;
+    border: none;
     border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+/* bg and style-button */
+.bg-color{
+    background-color: rgb(49, 168, 228);
+}
+#bg-qgoals{
+    background-color: rgb(142, 79, 219);
+}
+#bg-recruting{
+    background-color: rgba(11, 148, 68, 0.635);
+}
+#bg-mobile{
+    background-color: rgb(225, 149, 7);
+}
+#bg-website{
+    background-color: rgba(197, 62, 197, 0.791);
+}
+#bg-sales{
+    background-color: rgba(129, 179, 27, 0.741);
+}
+ul > li{
+   list-style-type: ;
+
+}
+
+li > input{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin: 5px 3px;
+    color: white;
+    font-size: 11px;
 }
 
 
+.list-task, .list-today, .list-upcoming{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
 
